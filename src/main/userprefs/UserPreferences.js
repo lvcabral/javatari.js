@@ -18,7 +18,7 @@ Javatari.userPreferences.defaults = function() {
                 up:      k.VK_UP,
                 right:   k.VK_RIGHT,
                 down:    k.VK_DOWN,
-                button:  k.VK_SPACE,
+                button:  k.VK_ENTER,
                 buttonT: k.VK_DELETE
             }, {
                 left:    k.VK_F,

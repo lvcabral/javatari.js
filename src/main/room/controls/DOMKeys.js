@@ -143,6 +143,10 @@ jt.DOMKeys.IGNORE_ALL_MODIFIERS_MASK = ~(jt.DOMKeys.SHIFT | jt.DOMKeys.CONTROL |
     k.VK_NUM_CLEAR = {c: 12 | num, n: "Num Clear" };
     k.VK_NUM_ENTER = {c: 13 | num, n: "Num Enter" };
 
+    k.VK_MEDIA_PLAY_PAUSE = {c: 179, n: "Play/Pause" };
+    k.VK_MEDIA_REWIND = {c: 227, n: "Rewind" };
+    k.VK_MEDIA_FAST_FORWARD = {c: 228, n: "Fast Forward" };
+
     k.VK_QUOTE = {c: 222, n: "'" };
     k.VK_BACKQUOTE = {c: 192, n: "`" };
     k.VK_MINUS = {c: 189, n: "-" };
