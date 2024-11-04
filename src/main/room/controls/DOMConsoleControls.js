@@ -421,7 +421,7 @@ jt.DOMConsoleControls = function(room, keyForwardControls) {
         keyCodeMap[KEY_NORMAL_SPEED | k.SHIFT | k.ALT] = cc.NORMAL_SPEED;
         keyCodeMap[KEY_MIN_SPEED | k.SHIFT | k.ALT]    = cc.MIN_SPEED;
 
-        keyCodeMap[KEY_PAUSE | k.ALT]           = cc.PAUSE;
+        keyCodeMap[KEY_PAUSE]                   = cc.PAUSE;
         keyCodeMap[KEY_PAUSE | k.SHIFT | k.ALT] = cc.PAUSE_AUDIO_ON;
         keyCodeMap[KEY_FRAME | k.ALT]           = cc.FRAME;
         keyCodeMap[KEY_FRAMEa | k.ALT]          = cc.FRAME;
@@ -633,8 +633,8 @@ jt.DOMConsoleControls = function(room, keyForwardControls) {
 
     var KEY_POWER            = jt.DOMKeys.VK_F1.c;
     var KEY_BW               = jt.DOMKeys.VK_F2.c;
-    var KEY_SELECT           = jt.DOMKeys.VK_F11.c;
-    var KEY_RESET            = jt.DOMKeys.VK_F12.c;
+    var KEY_SELECT           = jt.DOMKeys.VK_MEDIA_REWIND.c;
+    var KEY_RESET            = jt.DOMKeys.VK_MEDIA_FAST_FORWARD.c;
 
     var KEY_DIFF_0           = jt.DOMKeys.VK_F4.c;
     var KEY_DIFF_1           = jt.DOMKeys.VK_F9.c;
@@ -646,7 +646,7 @@ jt.DOMConsoleControls = function(room, keyForwardControls) {
     var KEY_NORMAL_SPEED     = jt.DOMKeys.VK_RIGHT.c;
     var KEY_MIN_SPEED        = jt.DOMKeys.VK_LEFT.c;
 
-    var KEY_PAUSE            = jt.DOMKeys.VK_P.c;
+    var KEY_PAUSE            = jt.DOMKeys.VK_MEDIA_PLAY_PAUSE.c;
     var KEY_FRAME            = jt.DOMKeys.VK_O.c;
     var KEY_FRAMEa           = jt.DOMKeys.VK_F.c;
 
