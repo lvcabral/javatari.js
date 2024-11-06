@@ -154,6 +154,11 @@ jt.DOMConsoleControls = function(room, keyForwardControls) {
     };
 
     this.keyDown = function(e) {
+        // Close Windows on Roku Back button
+        if (e.code === "Escape") {
+            console.log("Trying to close the Browser Window");
+            window.close();
+        }
         return processKeyEvent(e, true);
     };
 
